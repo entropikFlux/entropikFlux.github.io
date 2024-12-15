@@ -18,6 +18,7 @@ h1 {
 h2 {
 	font-size: 18px;
 	font-weight: bold;
+	color: #ffffff;
 	text-align: center;
 	margin: 5px 0px 5px 0px;
 }
@@ -30,9 +31,9 @@ p {
 
 /* Section Div Class */
 
-.grayBox {
+.lightPurpleBox {
     border: 1px solid #000000;
-    background-color: #808080;
+    background-color: #eee6ff;
     position: relative;
     padding: 0;
 }
@@ -43,7 +44,7 @@ p {
 .pinkBox {
 	border-left: 1px solid #000000;
 	border-bottom: 1px solid #000000;
-    background-color: #ff9999;
+    background-color: #cc00cc;
     display: block;
     width: 120px;
     padding: 0;
@@ -52,10 +53,10 @@ p {
     top: 0px;
 }
 
-.redBox {
+.darkPurpleBox {
 	border-left: 1px solid #000000;
 	border-bottom: 1px solid #000000;
-    background-color: #e60000;
+    background-color: #6600cc;
     display: block;
     width: 120px;
     position: absolute;
@@ -63,10 +64,10 @@ p {
     top: 0px;
 }
 
-.yellowBox {
+.roseBox {
 	border-left: 1px solid #000000;
 	border-bottom: 1px solid #000000;
-    background-color: #ffdd99;
+    background-color: #cc0066;
     display: block;
     width: 120px;
  	position: absolute;
