@@ -1,0 +1,23 @@
+body {
+	font-size: 16px;
+	color: #000;
+	background-color: #ffcccc;
+	font-family: "Oxygen", serif;
+}
+
+
+
+/* Header */
+
+#header-nav {
+	background-color: #ff0000;
+	border-radius:0;
+	border: 0;
+}
+
+#logo-img {
+	background: url('../images/logo-placeholder.png') no-repeat;
+	width: 236px;
+	height: 246px;
+	margin: 10px 15px 10px 0;
+}
