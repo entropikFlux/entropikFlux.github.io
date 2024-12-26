@@ -28,7 +28,6 @@ p {
 	font-family: "Lora", serif;
 	color: #ffffff;
 	font-size; 1.5em;
-	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
 	margin-top: 5px;
@@ -43,24 +42,71 @@ p {
 #nav-list {
   margin-top: 10px;
 }
+
 #nav-list a {
-  color: #951C49;
+  color: #ff0000;
   text-align: center;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
+	color: #ffffff;
+  background: #808080;
 }
 #nav-list a span {
   font-size: 1.8em;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid #000000;
+  background-color: #E7E7E7;
 }
 
 .navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -25px;
   position: absolute;
   right: 0px;
+  clear: both;
+  margin-top: 13px;
 }
+
+.navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:active {
+  border: 1px solid #ffffff;
+  background-color: #808080;
+}
+
+
+
+
+/* Navbar Responsive */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  
+  .navbar-brand {
+		padding-top: 10px;
+    height: 60px;
+  }
+
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsible-nav { /* Collapsed nav menu background */
+    background-color: #E7E7E7;
+  }
+
+  #collapsible-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+
