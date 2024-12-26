@@ -16,6 +16,13 @@ p {
 }
 
 
+.page-header {
+	font-family: "Lora", serif;
+	margin-top: -2px;
+	border-bottom: none;
+}
+
+
 /* Header */
 
 #header-nav {
@@ -27,7 +34,7 @@ p {
 .navbar-brand h1 { /* Restaurant Name */
 	font-family: "Lora", serif;
 	color: #ffffff;
-	font-size; 1.5em;
+	font-size: 2em;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
 	margin-top: 5px;
@@ -71,7 +78,6 @@ p {
   border: 1px solid #ffffff;
   background-color: #808080;
 }
-
 
 
 
