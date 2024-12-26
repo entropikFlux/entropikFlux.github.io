@@ -1,4 +1,4 @@
-/* General Element Styling */
+/* BEGIN Main Content Styling */
 
 * {
   box-sizing: border-box;
@@ -15,15 +15,33 @@ p {
 	padding: 5px 15px 0px 15px;
 }
 
+h2 {
+	font-family: "Oxygen", serif;
+	font-size: 28px;
+	color: #ffffff;
+	margin: 5px 0px 5px 0px;
+}
 
 .page-header {
-	font-family: "Lora", serif;
-	margin-top: -2px;
 	border-bottom: none;
 }
 
+.page-header h1 {
+	font-family: "Oxygen", serif;
+	font-weight: bold;
+	font-size: -2em;
+	border-bottom: none;
+}
 
-/* Header */
+#main-content {
+	color: #ffffff;
+	border-radius: 8px;
+  background: #595959;
+  margin: 0px 15px 15px 15px;
+  padding: 10px;
+}
+
+/* BEGIN Navbar, header, hamburger menu */
 
 #header-nav {
 	background-color: #ff0000;
@@ -34,7 +52,7 @@ p {
 .navbar-brand h1 { /* Restaurant Name */
 	font-family: "Lora", serif;
 	color: #ffffff;
-	font-size: 2em;
+	font-size: 34px;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
 	margin-top: 5px;
@@ -79,9 +97,9 @@ p {
   background-color: #808080;
 }
 
+/* END Navbar, header, hamburger menu */
 
-
-/* Navbar Responsive */
+/* BEGIN Responsive */
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -116,3 +134,4 @@ p {
     font-size: 1.2em;
   }
 
+/* END Responsive */
