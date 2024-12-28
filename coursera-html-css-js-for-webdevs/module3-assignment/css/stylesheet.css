@@ -12,7 +12,8 @@ body {
 }
 
 p {
-	padding: 5px 15px 0px 15px;
+	padding-top: 5px;
+	padding-right: -2px;
 }
 
 h2 {
@@ -132,6 +133,11 @@ h2 {
 
   #collapsible-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
+  }
+
+  #main-content.container-fluid  { /* Chicken container increased margins for xs breakpoint */
+  	margin-right: 60px;
+  	margin-left: 60px;
   }
 
 /* END Responsive */
