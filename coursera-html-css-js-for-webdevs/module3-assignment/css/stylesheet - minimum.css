@@ -16,23 +16,11 @@ p {
 	padding-right: -2px;
 }
 
-h3 {
+h2 {
 	font-family: "Oxygen", serif;
+	font-size: 28px;
 	color: #ffffff;
 	margin: 5px 0px 5px 0px;
-}
-
-.back-to-top {
-	color: #ff0000;
-	padding: 5px 0px 5px 0px;
-}
-
-.back-to-top:hover {
-	color: #ffcccc;
-}
-
-.back-to-top:click {
-	color: #ffcccc;
 }
 
 .page-header {
@@ -114,19 +102,19 @@ h3 {
 
 /* BEGIN Responsive */
 
-/********** Large devices only - col-lg **********/
+/********** Large devices only **********/
 @media (min-width: 1200px) {
 }
 
-/********** Medium devices only - col-md **********/
+/********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 }
 
-/********** Small devices only - col-sm **********/
+/********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 }
 
-/********** Extra small devices only - col-xs **********/
+/********** Extra small devices only **********/
 @media (max-width: 767px) {
   
   .navbar-brand {
