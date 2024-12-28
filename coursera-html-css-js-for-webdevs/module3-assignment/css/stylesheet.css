@@ -24,15 +24,17 @@ h3 {
 
 .back-to-top {
 	color: #ff0000;
-	padding: 5px 0px 5px 0px;
+	padding: 5px 0px 10px 0px;
 }
 
 .back-to-top:hover {
 	color: #ffcccc;
+	text-decoration: underline;
 }
 
 .back-to-top:click {
 	color: #ffcccc;
+	text-decoration: underline;
 }
 
 .page-header {
@@ -46,12 +48,20 @@ h3 {
 	border-bottom: none;
 }
 
-#main-content {
+#beef, #chicken, #sushi {
 	color: #ffffff;
 	border-radius: 8px;
   background: #595959;
-  margin: 0px 15px 15px 15px;
-  padding: 10px;
+  padding: 20px 22px 10px 25px;
+  margin-bottom: 25px;
+}
+
+#main-content.container-fluid  { /* Chicken container increased margins for xs breakpoint */
+  	margin-left: 30px;
+  }
+
+.row {
+	width: 100%;
 }
 
 /* BEGIN Navbar, header, hamburger menu */
@@ -114,22 +124,28 @@ h3 {
 
 /* BEGIN Responsive */
 
+
 /********** Large devices only - col-lg **********/
-@media (min-width: 1200px) {
+@media (min-width: 1200px) {  
+
 }
 
 /********** Medium devices only - col-md **********/
 @media (min-width: 992px) and (max-width: 1199px) {
+
+
 }
 
 /********** Small devices only - col-sm **********/
 @media (min-width: 768px) and (max-width: 991px) {
+
+
 }
 
 /********** Extra small devices only - col-xs **********/
 @media (max-width: 767px) {
-  
-  .navbar-brand {
+
+	.navbar-brand {
 		padding-top: 10px;
     height: 60px;
   }
@@ -149,7 +165,16 @@ h3 {
 
   #main-content.container-fluid  { /* Chicken container increased margins for xs breakpoint */
   	margin-right: 60px;
-  	margin-left: 60px;
+  	margin-left: 40px;
   }
+
+  #beef, #chicken, #sushi {
+  	padding: 15px 20px 10px 20px;
+  	margin-left: 25px;
+  	margin-bottom: 25px;
+	}
+
+
+}
 
 /* END Responsive */
